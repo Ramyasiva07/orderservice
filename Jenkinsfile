@@ -7,7 +7,7 @@ pipeline {
         ECS_CLUSTER = "ramya-cluster"
         ECS_SERVICE = "orderservice-service-sygy988p"
         IMAGE_TAG = "${BUILD_NUMBER}"
-        AWS_ACCOUNT_ID = "876253813767"
+        AWS_ACCOUNT_ID = "792520190237"
         ECR_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
     }
 
